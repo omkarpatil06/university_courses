@@ -1,26 +1,6 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 12.10.2022 23:18:17
-// Design Name: 
-// Module Name: Shift_reg2D_TB
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
 
-
-module Shift_reg2DTB(
+module shift_reg2D_TB(
     );
 
     reg CLK;
@@ -43,7 +23,7 @@ module Shift_reg2DTB(
     wire [3:0] OUT_14;
     wire [3:0] OUT_15;
     
-    Shift_reg2D uut (
+    shift_reg2D uut (
         .CLK(CLK),
         .IN(IN),
         .OUT_0(OUT_0),

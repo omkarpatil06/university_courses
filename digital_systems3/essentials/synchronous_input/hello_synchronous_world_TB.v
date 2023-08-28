@@ -1,26 +1,6 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: The University of Edinburgh
-// Engineer: Electronic and Electrical 3
-// 
-// Create Date: 29.09.2022 23:55:09
-// Design Name: Module 3
-// Module Name: Hello_synchronous_world_TB
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: Simulating a D flip-flop
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
 
-
-module Hello_synchronous_world_TB(
+module hello_synchronous_world_TB(
     );
     //Defining interface for simulation module
     //Input
@@ -30,7 +10,7 @@ module Hello_synchronous_world_TB(
     wire OUT;
     
     //Here we will instantiate the unit under test (uut)
-    Hello_synchronous_world uut (
+    hello_synchronous_world uut (
         .CLK(CLK),
         .IN(IN),
         .OUT(OUT)
