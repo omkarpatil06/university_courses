@@ -31,7 +31,7 @@ module Colour_Logic (
 
         // A counter to keep track of time. Can be set 1, 0.1, 0.01 or any such number of seconds.           
         UGeneric_Counter #(.COUNTER_WIDTH(24),
-            .COUNTER_MAX(14999999))
+                           .COUNTER_MAX(10000000))
             TriggTimer (
             .CLK(CLK),
             .RESET(1'b0),
